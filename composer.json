@@ -1,0 +1,22 @@
+{
+    "name": "usoft/authentication-user",
+    "type": "library",
+    "require": {},
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Usoft\\Auth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ulasoft",
+            "email": "ulasoft@mail.ru"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": "Usoft\\Auth\\Providers\\AuthProvider"
+        }
+    }
+}
