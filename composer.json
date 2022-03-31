@@ -2,7 +2,8 @@
     "name": "usoft/authentication-user",
     "type": "library",
     "require": {
-        "firebase/php-jwt": "^6.1"
+        "firebase/php-jwt": "^6.1",
+        "illuminate/redis": "^9.5"
     },
     "license": "MIT",
     "autoload": {
